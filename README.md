@@ -58,3 +58,6 @@ if(me.knownPeople[you].duration > Duration.soLong){
 
 ## Disclaimer
 This repository is not actually ment to be used in actual applications and serves no purpose other than to make programmers laugh. While they do follow syntax in their respective programming language, all of the code here can't be compiled and be run.
+
+## UwU
+o(〃＾▽＾〃)o
