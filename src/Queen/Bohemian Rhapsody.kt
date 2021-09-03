@@ -74,7 +74,7 @@ try {
 	if (me.coming.difficulty == Difficulty.easy &&
 	me.going.difficulty == Difficulty.easy && 
 	me.life.willLetGo) {}
-} catch(CantLetGoException e) {
+} catch(BismillahException e) {
 	this.`assert`(!me.life.willLetGo)
 	this.background.`assert`(me.life.willLetGo)
 	this.`assert`(!me.life.willLetGo)
@@ -86,6 +86,7 @@ try {
 	this.`assert`(!me.life.willLetGo)
 	this.background.`assert`(me.life.willLetGo)
 	for (i in 1..7) this.tell(this, "No")
+	me.tell(this, "Mama mia")
 	me.tell(this, "Mama mia")
 	me.ask(this, Feelings.lettingGo)
 	val devil = this.devils[Random.nextInt(this.devils.size)]

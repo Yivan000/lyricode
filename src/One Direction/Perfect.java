@@ -15,7 +15,7 @@ if (you.likeAction(Actions.trouble, Places.Hotel.room)
 	 me.perfect(you);
 } if (you.likeAction(Action.drivingMidnight, Car.Windows.down)
  && you.likeAction(Action.travel, Words.unpronouncable)
- && you.likeAction(Action.do, you.getOrgans().getBrain().getThoughts())){
+ && you.likeAction(Action.act, you.getOrgans().getBrain().getDreams())){
 	 me.perfect(you);
 	 start();
 }
@@ -38,7 +38,7 @@ if (you.likeAction(Actions.trouble, Places.Hotel.room)
 	 me.perfect(you);
 } if (you.likeAction(Action.drivingMidnight, Car.Windows.down)
  && you.likeAction(Action.travel, Words.unpronouncable)
- && you.likeAction(Action.do, you.getOrgans().getBrain().getThoughts())){
+ && you.likeAction(Action.act, you.getOrgans().getBrain().getDreams())){
 	 me.perfect(you);
 	 start();
 }
@@ -55,7 +55,7 @@ if (you.likeAction(Actions.trouble, Places.Hotel.room)
 	 me.perfect(you);
 } if (you.likeAction(Action.drivingMidnight, Car.Windows.down)
  && you.likeAction(Action.travel, Words.unpronouncable)
- && you.likeAction(Action.do, you.getOrgans().getBrain().getThoughts())){
+ && you.likeAction(Action.act, you.getOrgans().getBrain().getDreams())){
 	 me.perfect(you);
 	 start();
 }
