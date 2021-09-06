@@ -100,7 +100,7 @@ me.ask(this, Actions.stone, me)
 me.ask(this, Actions.spit, me.organs.eyes)
 me.ask(this, Actions.love, me)
 me.ask(this, Actions.leave, me, (){ me.alive = false })
-me.assert(this.isActionable == false)
+me.`assert`(this.isActionable == false)
 me.action(Actions.getOut)
 me.action(Actions.getOut, this.world)
 

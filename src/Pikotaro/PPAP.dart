@@ -1,6 +1,6 @@
 PPAP() {
-  var applePen = get(pen) + get(apple);
-  var pineapplePen = get(pen) + get(pineapple);
+  var applePen = hold(pen) + hold(apple);
+  var pineapplePen = hold(pen) + hold(pineapple);
   var penPineappleApplePen = applePen + pineapplePen;
 
   return penPineappleApplePen;
