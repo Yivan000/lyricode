@@ -1,0 +1,144 @@
+me{
+    me: present_tonight;
+    laughter: forced;
+    smile: fake;
+
+    @media screen and (face: visible){
+        .wall#insincerity .eyes[shifted]  .vacant {
+            display: none;
+        }
+    };
+
+    you{
+        meetup: enchanting;
+    }
+
+} 
+
+you{
+    eye{
+        whisper: "Have we met?";
+    }
+    room{
+        silhouette: --me;
+    }
+
+    conversation: playful;
+    remarks: countered;
+    notes: var(--notes);
+
+    meetup: enchanting;
+
+    me{
+        meetup: enchanted;
+    }
+}
+
+night{
+    sparkling: true;
+    you{
+        let_go: false;
+    }
+
+    me{
+        wonderstruck: blushed;
+        wondering: var(--you);
+        meetup: enchanted;
+    }
+}
+
+me{
+    awake: var(--lingering-question);
+    
+    .twoAM .isAwake {
+        wonder: var(--you-love);
+    }
+
+    pace{
+        left: auto;
+        right: auto;
+    }
+    door::after{
+        wish: var(--you);
+        open: true;
+        content: "Hey, it was enchanting to meet you";
+    }
+
+    me{
+        meetup: enchanted;
+    }
+}
+
+night{
+    sparkling: true;
+    you{
+        let_go: false;
+    }
+
+    me{
+        wonderstruck: blushed;
+        wondering: var(--you) infinite;
+    }
+
+    night: flawless;
+    you{
+        let_go: false;
+    }
+    
+    me{
+        wonderstruck: dancing alone;
+        wondering: var(--you) infinite;
+        meetup: enchanted;
+    }
+
+}
+
+me.praying{
+    [page=1]:not([storyline=end]){
+        thoughts: var(--you) infinite;
+        words: held_back;
+        leave: 0s;
+
+    }
+    
+    me{
+        meetup: enchanted;
+    }
+
+    you > someone{
+        in_love: false !important;
+        waiting: false !important;
+        in_love: false !important;
+        waiting: false !important;
+    }
+}
+
+
+night{
+    sparkling: true;
+    you{
+        let_go: false;
+    }
+
+    me{
+        wonderstruck: blushed;
+        wondering: var(--you) infinite;
+    }
+
+    night: flawless;
+    you{
+        let_go: false;
+    }
+    
+    me{
+        wonderstruck: dancing alone;
+        wondering: var(--you) infinite;
+        meetup: enchanted;
+    }
+
+}
+
+you > someone{    
+    in_love: false !important;
+    waiting: false !important;
+}
