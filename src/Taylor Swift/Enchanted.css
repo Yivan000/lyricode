@@ -3,7 +3,7 @@ me{
     laughter: forced;
     smile: fake;
 
-    @media screen and (face: visible){
+    @media (face: visible){
         .wall#insincerity .eyes[shifted]  .vacant {
             display: none;
         }
